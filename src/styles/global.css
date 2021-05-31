@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+
+  --green: #5ca720;
+  --black: #161616;
+  --color-lines: #a5a1a1;
+  --background-footer: #f9f9f9;
+}
+
+html,
+body {
+  font-size: 60%;
+}
+
+@media (max-width: 1000px) {
+  html,
+  body,
+  :root {
+    font-size: 62.5%;
+  }
+}
