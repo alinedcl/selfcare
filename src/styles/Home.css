@@ -41,7 +41,7 @@ main {
   margin: 0 auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,9 +53,9 @@ main {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   main {
-    margin-left: 7rem;
+    margin-left: 2rem;
   }
 }
 

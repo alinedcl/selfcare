@@ -46,10 +46,10 @@
   color: #5ca720;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .product-card-img img {
-    width: 20.6rem;
-    height: 20rem;
+    width: 22.6rem;
+    height: 22rem;
     object-fit: cover;
     border-radius: 5px;
   }
